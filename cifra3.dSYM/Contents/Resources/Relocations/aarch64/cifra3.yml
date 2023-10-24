@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/marcelodearaujo/Desktop/Cifra/cifra3'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F44, symSize: 0x2C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _alf, symObjAddr: 0x3B84, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x71, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003F44, symSize: 0x2C }
+  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _date, symObjAddr: 0x2C, symBinAddr: 0x100003F70, symSize: 0x90 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _submenu, symObjAddr: 0xBC, symBinAddr: 0x100004000, symSize: 0x1A4 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: _menu, symObjAddr: 0x260, symBinAddr: 0x1000041A4, symSize: 0xD8 }
+  - { offsetInCU: 0x112, offset: 0x112, size: 0x8, addend: 0x0, symName: _desTranClave, symObjAddr: 0x348, symBinAddr: 0x10000428C, symSize: 0x9D4 }
+  - { offsetInCU: 0x207, offset: 0x207, size: 0x8, addend: 0x0, symName: _transClave, symObjAddr: 0xD1C, symBinAddr: 0x100004C60, symSize: 0x900 }
+  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _desVigenere, symObjAddr: 0x161C, symBinAddr: 0x100005560, symSize: 0x62C }
+  - { offsetInCU: 0x388, offset: 0x388, size: 0x8, addend: 0x0, symName: _vigenere, symObjAddr: 0x1C48, symBinAddr: 0x100005B8C, symSize: 0x604 }
+  - { offsetInCU: 0x42F, offset: 0x42F, size: 0x8, addend: 0x0, symName: _desPlayfair, symObjAddr: 0x224C, symBinAddr: 0x100006190, symSize: 0xC78 }
+  - { offsetInCU: 0x564, offset: 0x564, size: 0x8, addend: 0x0, symName: _playfair, symObjAddr: 0x2EC4, symBinAddr: 0x100006E08, symSize: 0xCC0 }
+...
