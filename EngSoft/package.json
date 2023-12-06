@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "puppeteer": "^21.6.0",
+    "rxjs": "^6.5.5"
+  }
+}
